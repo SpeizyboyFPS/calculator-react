@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* height: 100vh; */
+  padding-top: 10px;
+  padding-bottom: 60px;
+  background: #ff9393;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-contenedor {
+  color: #fff;
+  /* font-family: 'Press Start 2P'; */
+  font-family: 'Silkscreen';
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  animation-name: colors;
+  
+}
+
+.l1 {
+  color: #f03;
+}
+
+.l3 {
+  color: #82bce8;
+}
+
+.l5 {
+  color: #3bff68;
+}
+ 
+.l7 {
+  color: #fff83b;
+}
+ 
+.l9 {
+  color: #db3bff;
+}
+ 
+.l11 {
+  color: #ff3ba3;
+}
+
+.contenedor-calculadora {
+  width: 400px;
+  height: 600px;
+  padding: 15px;
+  background: #b9b8b9;
+  border-radius: 8px;
+  box-shadow: 8px 2px 0px 2px rgb(0, 0, 0);
+  border: 1px solid #000;
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+
+
+.logo-contenedor {
+height: 50px;	
+overflow: hidden;
+position: relative;
+
+}
+.titulo{
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+ /* Starting position */
+transform:translateX(100%);
+ /* Apply animation to this element */
+animation: scroll-left 10s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+0%   {
+transform: translateX(-100%); 		
+}
+100% {
+transform: translateX(100%); 
+}
+}
+
+

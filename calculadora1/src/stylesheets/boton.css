@@ -1,0 +1,79 @@
+.boton-contenedor {
+  height: 83px;
+  display: flex;
+  font-family: 'Press Start 2P';
+  /* font-family: 'Silkscreen'; */
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  background: #fff;
+  color: #000;
+  border-radius: 5px ;
+  border: 2px solid #ff9393;
+  box-shadow: 2px 2px 0px 2px #444;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: all .2s ease-in-out ;
+}
+
+.boton-contenedor:hover {
+  color: #555;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.operador {
+  background: #49ff8f;
+  transition: all .2s ease-in-out ;
+}
+
+.operador:hover {
+  background: #ff6600;
+  color: #555;
+}
+
+
+
+
+
+
+
+/* button {
+    width: 70px;
+    height: 38px;
+    margin-top: 20px;
+    border: #ff8c8c solid 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px 2px #444;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all .1s ease-in-out;
+}
+
+button:hover {
+    color: #555;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.btns-contenedor {
+    box-sizing: content-box;
+    height: 345px;
+    border-top: 3px solid #000;
+    background-color: #b9b8b8;
+    position: sticky;
+    top: 50px;
+}
+
+.btn-c, .porcentaje  {
+    color: #ccc;
+}
+
+.porcentaje:hover {
+    color: #ccc;
+}
+
+.btn-c:hover {
+    color: #ccc;
+} */

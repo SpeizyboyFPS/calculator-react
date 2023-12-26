@@ -1,0 +1,23 @@
+.btn-clear {
+  height:  80px;
+  font-size: 1.6em;
+  font-family: 'Press Start 2P';
+  /* font-family: 'Silkscreen'; */
+  display: flex;
+  flex: 1;
+  background: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  user-select: none;
+  transition: .3s ease-in-out;
+}
+
+.btn-clear:hover {
+  background: #ebb000;
+}
